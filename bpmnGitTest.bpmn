@@ -4,7 +4,7 @@
     <extensionElements>
       <design:stencilid><![CDATA[BPMNDiagram]]></design:stencilid>
       <design:creationdate><![CDATA[2026-03-04T12:52:05.536Z]]></design:creationdate>
-      <design:modificationdate><![CDATA[2026-03-04T12:53:58.910Z]]></design:modificationdate>
+      <design:modificationdate><![CDATA[2026-03-04T14:03:08.777Z]]></design:modificationdate>
     </extensionElements>
     <userTask id="FormTask_1" name="Remote Task 1" flowable:assignee="${initiator}" flowable:formFieldValidation="false">
       <extensionElements>
@@ -20,7 +20,7 @@
         <design:stencilsuperid><![CDATA[Task]]></design:stencilsuperid>
       </extensionElements>
     </userTask>
-    <userTask id="FormTask_5" name="Task 3" flowable:assignee="${initiator}" flowable:formFieldValidation="false">
+    <userTask id="FormTask_5" name="Local Task 3" flowable:assignee="${initiator}" flowable:formFieldValidation="false">
       <extensionElements>
         <flowable:task-candidates-type><![CDATA[all]]></flowable:task-candidates-type>
         <design:stencilid><![CDATA[FormTask]]></design:stencilid>
