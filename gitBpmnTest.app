@@ -14,6 +14,9 @@
       "childModels" : [ {
         "key" : "bpmnGitTest",
         "type" : "bpmn"
+      }, {
+        "key" : "bPMNTestGitForm",
+        "type" : "form"
       } ]
     }
   }
