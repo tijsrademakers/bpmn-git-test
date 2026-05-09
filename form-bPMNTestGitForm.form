@@ -1,0 +1,87 @@
+{
+  "rows" : [ {
+    "cols" : [ {
+      "designInfo" : {
+        "stencilSuperIds" : [ "base-text" ],
+        "stencilId" : "cloud-text"
+      },
+      "size" : 12,
+      "extraSettings" : {
+        "validationPanelDisplay" : "show",
+        "useDelay" : true,
+        "delay" : 200
+      },
+      "isRequired" : false,
+      "enabled" : true,
+      "visible" : true,
+      "ignore" : false,
+      "label" : "saddasads",
+      "labelAlign" : "top",
+      "tabIndex" : 0,
+      "value" : "{{saddasads}}",
+      "id" : "text1",
+      "type" : "text"
+    } ]
+  }, {
+    "cols" : [ {
+      "designInfo" : {
+        "stencilSuperIds" : [ "base-integer-number" ],
+        "stencilId" : "cloud-integer-number"
+      },
+      "size" : 12,
+      "extraSettings" : {
+        "validationPanelDisplay" : "show",
+        "type" : "one",
+        "numberType" : "integer",
+        "fractionSize" : 0,
+        "useDelay" : true,
+        "delay" : 200,
+        "bigNumber" : false
+      },
+      "isRequired" : false,
+      "enabled" : true,
+      "visible" : true,
+      "ignore" : false,
+      "label" : "Some number",
+      "labelAlign" : "top",
+      "tabIndex" : 0,
+      "value" : "{{someNumber}}",
+      "id" : "integer-number1",
+      "type" : "number"
+    } ]
+  }, {
+    "cols" : [ {
+      "designInfo" : {
+        "stencilSuperIds" : [ "base-date" ],
+        "stencilId" : "cloud-date"
+      },
+      "size" : 12,
+      "extraSettings" : {
+        "validationPanelDisplay" : "show",
+        "disableWeekends" : false,
+        "calendarStartDay" : "monday",
+        "enableTime" : false,
+        "storeWithoutTime" : true
+      },
+      "isRequired" : false,
+      "enabled" : true,
+      "visible" : true,
+      "ignore" : false,
+      "label" : "dasdads",
+      "labelAlign" : "top",
+      "tabIndex" : 0,
+      "id" : "date1",
+      "value" : "{{dasdads}}",
+      "type" : "date"
+    } ]
+  } ],
+  "metadata" : {
+    "key" : "bPMNTestGitForm",
+    "name" : "BPMN test git form",
+    "description" : null,
+    "version" : "3",
+    "modelType" : "form",
+    "flowableDesignVersion" : 3110,
+    "palette" : "flowable-work-form-palette"
+  }
+}
