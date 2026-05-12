@@ -1,0 +1,29 @@
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:flowable="http://flowable.org/dmn" xmlns:design="http://flowable.org/design" id="definition_testDecisionTable" name="Test decision table" namespace="http://www.flowable.org/dmn">
+  <decision id="testDecisionTable" name="Test decision table">
+    <decisionTable id="decisionTable_testDecisionTable" hitPolicy="FIRST">
+      <input label="Amount">
+        <inputExpression id="inputExpression_1" typeRef="number">
+          <text>amount</text>
+        </inputExpression>
+      </input>
+      <output id="outputExpression_2" label="Output" name="output" typeRef="string"></output>
+      <rule>
+        <inputEntry id="inputEntry_1_1">
+          <text><![CDATA[<= 9]]></text>
+        </inputEntry>
+        <outputEntry id="outputEntry_2_1">
+          <text><![CDATA["Small"]]></text>
+        </outputEntry>
+      </rule>
+      <rule>
+        <inputEntry id="inputEntry_1_2">
+          <text><![CDATA[-]]></text>
+        </inputEntry>
+        <outputEntry id="outputEntry_2_2">
+          <text><![CDATA["Big"]]></text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI></dmndi:DMNDI>
+</definitions>

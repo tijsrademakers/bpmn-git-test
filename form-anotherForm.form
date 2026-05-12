@@ -1,0 +1,35 @@
+{
+  "rows" : [ {
+    "cols" : [ {
+      "designInfo" : {
+        "stencilSuperIds" : [ "base-text" ],
+        "stencilId" : "cloud-text"
+      },
+      "size" : 12,
+      "extraSettings" : {
+        "validationPanelDisplay" : "show",
+        "useDelay" : true,
+        "delay" : 200
+      },
+      "isRequired" : false,
+      "enabled" : true,
+      "visible" : true,
+      "ignore" : false,
+      "label" : "Customer name 2",
+      "labelAlign" : "top",
+      "tabIndex" : 0,
+      "value" : "{{customerName}}",
+      "id" : "text1",
+      "type" : "text"
+    } ]
+  } ],
+  "metadata" : {
+    "key" : "anotherForm",
+    "name" : "Another form",
+    "description" : null,
+    "version" : "3",
+    "modelType" : "form",
+    "flowableDesignVersion" : 3110,
+    "palette" : "flowable-work-form-palette"
+  }
+}
