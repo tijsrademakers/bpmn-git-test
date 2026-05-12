@@ -1,0 +1,38 @@
+{
+  "type" : "REST",
+  "operations" : [ {
+    "name" : "Test operation",
+    "key" : "testOperation",
+    "inputParameters" : [ {
+      "displayName" : "name",
+      "name" : "name",
+      "type" : "string",
+      "queryParameter" : true
+    } ],
+    "outputParameters" : [ {
+      "displayName" : "Id",
+      "name" : "id",
+      "type" : "string",
+      "applyMappingConfig" : "onSuccess",
+      "missingValueConfig" : "ignore",
+      "nullValueConfig" : "setToNull"
+    }, {
+      "displayName" : "Name",
+      "name" : "name",
+      "type" : "string",
+      "applyMappingConfig" : "onSuccess",
+      "missingValueConfig" : "ignore",
+      "nullValueConfig" : "setToNull"
+    }, {
+      "displayName" : "Age",
+      "name" : "age",
+      "type" : "integer",
+      "applyMappingConfig" : "onSuccess",
+      "missingValueConfig" : "ignore",
+      "nullValueConfig" : "setToNull"
+    } ],
+    "type" : "search"
+  } ],
+  "name" : "Test service",
+  "key" : "testService"
+}
