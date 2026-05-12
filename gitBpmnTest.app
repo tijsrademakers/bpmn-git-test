@@ -15,7 +15,19 @@
         "key" : "bpmnGitTest",
         "type" : "bpmn"
       }, {
+        "key" : "testDataDictionary",
+        "type" : "dataDictionary"
+      }, {
+        "key" : "testDecisionTable",
+        "type" : "dmn"
+      }, {
         "key" : "bPMNTestGitForm",
+        "type" : "form"
+      }, {
+        "key" : "testEvent",
+        "type" : "event"
+      }, {
+        "key" : "anotherForm",
         "type" : "form"
       } ]
     }
