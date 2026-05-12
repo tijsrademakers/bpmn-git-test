@@ -1,0 +1,46 @@
+{
+  "enableChat" : false,
+  "api" : {
+    "enableApiEndpoint" : true,
+    "apiEndpointUserGroup" : [ "flowableUser" ]
+  },
+  "externalAgentSettings" : {
+    "apiKey" : {
+      "type" : "default"
+    }
+  },
+  "audit" : {
+    "knowledgeBaseLink" : true,
+    "lowLevelExchange" : true,
+    "basicAgentUsage" : true
+  },
+  "documentClassification" : {
+    "behavior" : {
+      "type" : "default"
+    }
+  },
+  "type" : "taskAgent",
+  "operations" : [ {
+    "name" : "Test agent2",
+    "key" : "testAgent2",
+    "input" : {
+      "inputType" : "structured",
+      "inputParameters" : [ {
+        "label" : "Name",
+        "name" : "name",
+        "type" : "string",
+        "required" : true
+      } ]
+    },
+    "output" : {
+      "outputType" : "text"
+    },
+    "behavior" : {
+      "type" : "juelExpression",
+      "systemMessage" : "asdadsd",
+      "userMessage" : "dadsdsda ${ name }"
+    }
+  } ],
+  "name" : "Test agent",
+  "key" : "testAgent"
+}

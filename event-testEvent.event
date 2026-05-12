@@ -1,0 +1,33 @@
+{
+  "payload" : [ {
+    "name" : "Id",
+    "correlationParameter" : false,
+    "header" : false,
+    "isFullPayload" : false,
+    "metaParameter" : false,
+    "type" : "string"
+  }, {
+    "name" : "Name",
+    "correlationParameter" : false,
+    "header" : false,
+    "isFullPayload" : false,
+    "metaParameter" : false,
+    "type" : "string"
+  }, {
+    "name" : "Amount",
+    "correlationParameter" : false,
+    "header" : false,
+    "isFullPayload" : false,
+    "metaParameter" : false,
+    "type" : "integer"
+  }, {
+    "name" : "Prop2",
+    "correlationParameter" : false,
+    "header" : false,
+    "isFullPayload" : false,
+    "metaParameter" : false,
+    "type" : "string"
+  } ],
+  "name" : "Test event",
+  "key" : "testEvent"
+}

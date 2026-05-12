@@ -1,0 +1,33 @@
+{
+  "types" : {
+    "customer" : {
+      "label" : "Customer",
+      "type" : "object",
+      "index" : 0,
+      "properties" : {
+        "id" : {
+          "label" : "Id",
+          "type" : "string",
+          "index" : 0
+        },
+        "name" : {
+          "label" : "Name",
+          "type" : "string",
+          "index" : 1
+        },
+        "age" : {
+          "label" : "Age",
+          "type" : "integer",
+          "index" : 2
+        },
+        "prop2" : {
+          "label" : "Prop2",
+          "type" : "string",
+          "index" : 3
+        }
+      }
+    }
+  },
+  "name" : "Test data dictionary",
+  "key" : "testDataDictionary"
+}
