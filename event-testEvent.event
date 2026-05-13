@@ -21,7 +21,7 @@
     "metaParameter" : false,
     "type" : "integer"
   }, {
-    "name" : "Prop2",
+    "name" : "Prop1",
     "correlationParameter" : false,
     "header" : false,
     "isFullPayload" : false,

@@ -42,7 +42,7 @@
       "enabled" : true,
       "visible" : true,
       "ignore" : false,
-      "label" : "Some number 5",
+      "label" : "Some number 6",
       "labelAlign" : "top",
       "tabIndex" : 0,
       "value" : "{{someNumber}}",
@@ -102,7 +102,7 @@
     "key" : "bPMNTestGitForm",
     "name" : "BPMN test git form",
     "description" : null,
-    "version" : "14",
+    "version" : "15",
     "modelType" : "form",
     "flowableDesignVersion" : 3110,
     "palette" : "flowable-work-form-palette"

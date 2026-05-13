@@ -1,12 +1,17 @@
 {
   "type" : "REST",
   "operations" : [ {
-    "name" : "Test operation",
-    "key" : "testOperation",
+    "name" : "Test operation 2",
+    "key" : "testOperation2",
     "inputParameters" : [ {
       "displayName" : "name",
       "name" : "name",
       "type" : "string",
+      "queryParameter" : true
+    }, {
+      "displayName" : "age",
+      "name" : "age",
+      "type" : "integer",
       "queryParameter" : true
     } ],
     "outputParameters" : [ {
@@ -27,6 +32,13 @@
       "displayName" : "Age",
       "name" : "age",
       "type" : "integer",
+      "applyMappingConfig" : "onSuccess",
+      "missingValueConfig" : "ignore",
+      "nullValueConfig" : "setToNull"
+    }, {
+      "displayName" : "Prop1",
+      "name" : "prop1",
+      "type" : "string",
       "applyMappingConfig" : "onSuccess",
       "missingValueConfig" : "ignore",
       "nullValueConfig" : "setToNull"

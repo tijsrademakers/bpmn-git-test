@@ -21,8 +21,8 @@
   },
   "type" : "taskAgent",
   "operations" : [ {
-    "name" : "Test agent2",
-    "key" : "testAgent2",
+    "name" : "Test agent",
+    "key" : "testAgent",
     "input" : {
       "inputType" : "structured",
       "inputParameters" : [ {
@@ -30,6 +30,10 @@
         "name" : "name",
         "type" : "string",
         "required" : true
+      }, {
+        "label" : "Age",
+        "name" : "age",
+        "type" : "integer"
       } ]
     },
     "output" : {
