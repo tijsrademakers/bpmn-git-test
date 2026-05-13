@@ -1,0 +1,33 @@
+{
+  "rows" : [ {
+    "cols" : [ {
+      "designInfo" : {
+        "stencilSuperIds" : [ "Component" ],
+        "stencilId" : "work-case-list"
+      },
+      "extraSettings" : {
+        "validationPanelDisplay" : "show",
+        "showTotal" : false,
+        "style" : "wide"
+      },
+      "visible" : true,
+      "ignore" : false,
+      "label" : "Case list",
+      "labelAlign" : "top",
+      "enabled" : true,
+      "isRequired" : false,
+      "size" : 12,
+      "id" : "work-case-list1",
+      "type" : "workCaseList"
+    } ]
+  } ],
+  "metadata" : {
+    "key" : "pageTest",
+    "name" : "Page test",
+    "description" : null,
+    "version" : "2",
+    "modelType" : "page",
+    "flowableDesignVersion" : 3110,
+    "palette" : "flowable-work-page-palette"
+  }
+}

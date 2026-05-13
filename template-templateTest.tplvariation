@@ -1,0 +1,9 @@
+[ {
+  "templateDefinitionKey" : "templateTest",
+  "variationContent" : "bla en",
+  "variationKey" : "en"
+}, {
+  "templateDefinitionKey" : "templateTest",
+  "variationContent" : "bla fr",
+  "variationKey" : "fr"
+} ]

@@ -1,0 +1,15 @@
+{
+  "fullTextVariables" : [ ],
+  "variableExtractors" : [ {
+    "path" : "/sadasd2",
+    "to" : "/adsdas",
+    "type" : "string",
+    "filter" : {
+      "scopeDefinitionKey" : "sad",
+      "name" : "ads"
+    }
+  } ],
+  "sourceIndex" : "case-instances",
+  "name" : "Variable extract test",
+  "key" : "variableExtractTest"
+}

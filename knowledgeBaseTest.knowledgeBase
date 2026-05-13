@@ -1,0 +1,31 @@
+{
+  "itemCreator" : {
+    "type" : "default"
+  },
+  "chunkConverter" : {
+    "type" : "contextAware"
+  },
+  "textBasedFormatExtractor" : {
+    "type" : "markdown"
+  },
+  "sourceItemEnricher" : {
+    "type" : "searchSubFolders"
+  },
+  "contentItemsPath" : "/Work/Knowledge Base2",
+  "inputSource" : "contentItems",
+  "vectorStore" : {
+    "embeddingSettings" : {
+      "type" : "openAI",
+      "modelName" : "text-embedding-ada-002",
+      "apiKey" : {
+        "type" : "default"
+      }
+    },
+    "distanceType" : "COSINE_DISTANCE",
+    "type" : "elasticsearch"
+  },
+  "type" : "processAndSearch",
+  "name" : "Knowledge base test",
+  "key" : "knowledgeBaseTest",
+  "description" : null
+}

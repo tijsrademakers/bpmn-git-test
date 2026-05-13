@@ -1,0 +1,58 @@
+{
+  "rows" : [ {
+    "cols" : [ {
+      "designInfo" : {
+        "stencilSuperIds" : [ "base-text" ],
+        "stencilId" : "cloud-text"
+      },
+      "size" : 12,
+      "extraSettings" : {
+        "validationPanelDisplay" : "show",
+        "useDelay" : true,
+        "delay" : 200
+      },
+      "isRequired" : false,
+      "enabled" : true,
+      "visible" : true,
+      "ignore" : false,
+      "label" : "Name",
+      "labelAlign" : "top",
+      "tabIndex" : 0,
+      "value" : "{{name}}",
+      "id" : "text1",
+      "type" : "text"
+    } ]
+  }, {
+    "cols" : [ {
+      "designInfo" : {
+        "stencilSuperIds" : [ "base-text" ],
+        "stencilId" : "cloud-text"
+      },
+      "size" : 12,
+      "extraSettings" : {
+        "validationPanelDisplay" : "show",
+        "useDelay" : true,
+        "delay" : 200
+      },
+      "isRequired" : false,
+      "enabled" : true,
+      "visible" : true,
+      "ignore" : false,
+      "label" : "State",
+      "labelAlign" : "top",
+      "tabIndex" : 0,
+      "value" : "{{state}}",
+      "id" : "text2",
+      "type" : "text"
+    } ]
+  } ],
+  "metadata" : {
+    "key" : "contentTestForm",
+    "name" : "Content test form",
+    "description" : null,
+    "version" : "2",
+    "modelType" : "form",
+    "flowableDesignVersion" : 3110,
+    "palette" : "flowable-work-form-palette"
+  }
+}

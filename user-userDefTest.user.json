@@ -1,0 +1,23 @@
+{
+  "contactFilters" : [ ],
+  "conversationFilters" : [ ],
+  "allowedTabs" : [ ],
+  "allowedFeatures" : [ ],
+  "lookupGroups" : [ ],
+  "memberGroups" : [ ],
+  "restVariables" : { },
+  "initialVariables" : { },
+  "actionHandlers" : {
+    "create" : { },
+    "edit" : { },
+    "activate" : { },
+    "deactivate" : { }
+  },
+  "actionPermissions" : { },
+  "forms" : {
+    "edit" : "userEditForm"
+  },
+  "icon" : "arrows-up-down/regular",
+  "name" : "User def test",
+  "key" : "userDefTest"
+}

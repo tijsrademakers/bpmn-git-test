@@ -1,0 +1,9 @@
+{
+  "config" : { },
+  "icon" : "balloons/regular",
+  "ignoreConfirmationMessage" : true,
+  "signalName" : "bpmnGitTest",
+  "botKey" : "bpmn-start-process-instance-bot",
+  "name" : "Action test",
+  "key" : "actionTest"
+}

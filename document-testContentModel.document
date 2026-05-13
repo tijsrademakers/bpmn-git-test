@@ -1,0 +1,7 @@
+{
+  "forms" : {
+    "edit" : "contentTestForm"
+  },
+  "name" : "Test content model",
+  "key" : "testContentModel"
+}
