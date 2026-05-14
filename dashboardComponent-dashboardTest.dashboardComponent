@@ -6,7 +6,7 @@
   "type" : "pieChart",
   "configuration" : {
     "title" : "",
-    "chartColors" : [ "#2d91a9", "#4CB944", "#F06543", "#0B3954", "#BFD7EA", "#EC9A29", "#F5EE9E" ]
+    "chartColors" : [ "#2d91a9", "#0a4606", "#F06543", "#0B3954", "#BFD7EA", "#EC9A29", "#F5EE9E" ]
   },
   "queryResultMapping" : {
     "aggregationDefinitions" : [ ]

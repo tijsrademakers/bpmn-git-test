@@ -1,7 +1,7 @@
 {
   "fullTextVariables" : [ ],
   "variableExtractors" : [ {
-    "path" : "/sadasd2",
+    "path" : "/sadasd",
     "to" : "/adsdas",
     "type" : "string",
     "filter" : {
