@@ -26,6 +26,23 @@
           "index" : 3
         }
       }
+    },
+    "address" : {
+      "label" : "Address",
+      "type" : "object",
+      "index" : 1,
+      "properties" : {
+        "street" : {
+          "label" : "Street",
+          "type" : "string",
+          "index" : 0
+        },
+        "housenumber" : {
+          "label" : "Housenumber",
+          "type" : "string",
+          "index" : 1
+        }
+      }
     }
   },
   "name" : "Test data dictionary",
