@@ -41,6 +41,11 @@
           "label" : "Housenumber",
           "type" : "string",
           "index" : 1
+        },
+        "postalCode" : {
+          "label" : "Postal code",
+          "type" : "string",
+          "index" : 2
         }
       }
     }
