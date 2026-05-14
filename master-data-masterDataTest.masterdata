@@ -11,7 +11,7 @@
   },
   "variables" : [ ],
   "nameField" : "blaName",
-  "idField" : "blaId2",
+  "idField" : "blaId",
   "keyField" : "blaKey",
   "dataObjectType" : "masterData",
   "name" : "Master data test",

@@ -712,7 +712,7 @@
     "definition" : {
       "label" : "Edit task comment",
       "permissionValues" : {
-        "owner" : false,
+        "owner" : true,
         "assignee" : false,
         "candidate" : false,
         "participant" : false,

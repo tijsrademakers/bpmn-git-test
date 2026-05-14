@@ -11,7 +11,7 @@
   "sourceItemEnricher" : {
     "type" : "searchSubFolders"
   },
-  "contentItemsPath" : "/Work/Knowledge Base2",
+  "contentItemsPath" : "/Work/Knowledge Base",
   "inputSource" : "contentItems",
   "vectorStore" : {
     "embeddingSettings" : {
