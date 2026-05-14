@@ -9,6 +9,9 @@
       "members" : [ {
         "type" : "activeStatic",
         "value" : true
+      }, {
+        "type" : "businessStatusStatic",
+        "value" : "ddd"
       } ],
       "inputParameters" : [ ]
     },
