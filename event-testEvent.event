@@ -41,6 +41,13 @@
     "isFullPayload" : false,
     "metaParameter" : false,
     "type" : "string"
+  }, {
+    "name" : "Prop5",
+    "correlationParameter" : false,
+    "header" : false,
+    "isFullPayload" : false,
+    "metaParameter" : false,
+    "type" : "string"
   } ],
   "name" : "Test event",
   "key" : "testEvent"
