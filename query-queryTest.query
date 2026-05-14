@@ -1,0 +1,33 @@
+{
+  "configuration" : {
+    "paginationDefinition" : {
+      "enable" : true
+    },
+    "isSafeQuery" : true,
+    "filterDefinition" : {
+      "logicalOperator" : "and",
+      "members" : [ {
+        "type" : "activeStatic",
+        "value" : true
+      }, {
+        "type" : "startTimeStatic",
+        "value" : {
+          "type" : "absolute",
+          "rangeStart" : "2026-04-25T22:00:00.000Z",
+          "rangeEnd" : "2026-05-02T21:59:59.999Z"
+        }
+      } ],
+      "inputParameters" : [ ]
+    },
+    "responseDefinition" : {
+      "returnResults" : true,
+      "fields" : [ "callbackId", "caseDefinitionId", "caseDefinitionKey" ],
+      "variables" : [ ]
+    }
+  },
+  "sourceIndex" : "case-instances",
+  "subType" : "query-builder",
+  "type" : "standard",
+  "name" : "Query test",
+  "key" : "queryTest"
+}

@@ -1,0 +1,16 @@
+{
+  "queryModel" : {
+    "key" : "queryTest",
+    "id" : "QUERY_MODEL-6123a46d-4ebc-11f1-83fa-8e6420ca3589"
+  },
+  "type" : "pieChart",
+  "configuration" : {
+    "title" : "",
+    "chartColors" : [ "#2d91a9", "#4CB944", "#F06543", "#0B3954", "#BFD7EA", "#EC9A29", "#F5EE9E" ]
+  },
+  "queryResultMapping" : {
+    "aggregationDefinitions" : [ ]
+  },
+  "name" : "dashboard test",
+  "key" : "dashboardTest"
+}

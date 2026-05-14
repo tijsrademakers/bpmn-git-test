@@ -1,0 +1,19 @@
+{
+  "data" : {
+    "allowDynamic" : true,
+    "value" : [ {
+      "blaName" : "bla",
+      "blaKey" : "blakey",
+      "blaId" : "1",
+      "sortOrder" : 0,
+      "favorite" : true
+    } ]
+  },
+  "variables" : [ ],
+  "nameField" : "blaName",
+  "idField" : "blaId2",
+  "keyField" : "blaKey",
+  "dataObjectType" : "masterData",
+  "name" : "Master data test",
+  "key" : "masterDataTest"
+}
