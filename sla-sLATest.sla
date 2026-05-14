@@ -17,7 +17,7 @@
   "inProgressStartDueDateTimeUnit" : "second",
   "completionDueDateTimeUnit" : "hour",
   "completionDueDateValue" : "48",
-  "businessCalendarType" : "24_7",
+  "businessCalendarType" : "working_week",
   "initializationDefinitions" : [ {
     "condition" : "",
     "actionConfig" : {
@@ -28,7 +28,7 @@
   } ],
   "assignmentDefinitions" : [ ],
   "completionDefinitions" : [ ],
-  "businessCalendarValue" : null,
+  "businessCalendarValue" : "extended",
   "name" : "SLA test",
   "key" : "sLATest"
 }
