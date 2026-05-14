@@ -36,13 +36,24 @@
       </rule>
       <rule>
         <inputEntry id="inputEntry_1_3">
-          <text><![CDATA[-]]></text>
+          <text><![CDATA[<= 10]]></text>
         </inputEntry>
         <inputEntry id="inputEntry_4757607f-218c-4fa9-aca0-ec5d8aaea3c0_3">
           <text><![CDATA[-]]></text>
         </inputEntry>
         <outputEntry id="outputEntry_2_3">
           <text><![CDATA["Big"]]></text>
+        </outputEntry>
+      </rule>
+      <rule>
+        <inputEntry id="inputEntry_1_4">
+          <text><![CDATA[<= 20]]></text>
+        </inputEntry>
+        <inputEntry id="inputEntry_4757607f-218c-4fa9-aca0-ec5d8aaea3c0_4">
+          <text><![CDATA[-]]></text>
+        </inputEntry>
+        <outputEntry id="outputEntry_2_4">
+          <text><![CDATA["Large"]]></text>
         </outputEntry>
       </rule>
     </decisionTable>

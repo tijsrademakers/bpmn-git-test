@@ -5,20 +5,20 @@
         "stencilSuperIds" : [ "base-text" ],
         "stencilId" : "cloud-text"
       },
-      "size" : 12,
+      "labelAlign" : "top",
+      "value" : "{{saddasads}}",
+      "ignore" : false,
+      "visible" : true,
+      "enabled" : true,
+      "isRequired" : false,
       "extraSettings" : {
         "validationPanelDisplay" : "show",
         "useDelay" : true,
         "delay" : 200
       },
-      "isRequired" : false,
-      "enabled" : true,
-      "visible" : true,
-      "ignore" : false,
-      "label" : "saddasads",
-      "labelAlign" : "top",
+      "size" : 12,
       "tabIndex" : 0,
-      "value" : "{{saddasads}}",
+      "label" : "saddasads",
       "id" : "text1",
       "type" : "text"
     } ]
@@ -28,24 +28,24 @@
         "stencilSuperIds" : [ "base-integer-number" ],
         "stencilId" : "cloud-integer-number"
       },
-      "size" : 12,
+      "labelAlign" : "top",
+      "value" : "{{someNumber}}",
+      "ignore" : false,
+      "visible" : true,
+      "enabled" : true,
+      "isRequired" : false,
       "extraSettings" : {
         "validationPanelDisplay" : "show",
-        "type" : "one",
-        "numberType" : "integer",
-        "fractionSize" : 0,
+        "bigNumber" : false,
         "useDelay" : true,
         "delay" : 200,
-        "bigNumber" : false
+        "fractionSize" : 0,
+        "numberType" : "integer",
+        "type" : "one"
       },
-      "isRequired" : false,
-      "enabled" : true,
-      "visible" : true,
-      "ignore" : false,
-      "label" : "Some number 6",
-      "labelAlign" : "top",
+      "size" : 12,
       "tabIndex" : 0,
-      "value" : "{{someNumber}}",
+      "label" : "Some number 6",
       "id" : "integer-number1",
       "type" : "number"
     } ]
@@ -55,24 +55,47 @@
         "stencilSuperIds" : [ "base-date" ],
         "stencilId" : "cloud-date"
       },
-      "size" : 12,
+      "labelAlign" : "top",
+      "value" : "{{dasdads}}",
+      "ignore" : false,
+      "visible" : true,
+      "enabled" : true,
+      "isRequired" : false,
       "extraSettings" : {
         "validationPanelDisplay" : "show",
-        "disableWeekends" : false,
-        "calendarStartDay" : "monday",
         "enableTime" : false,
-        "storeWithoutTime" : true
+        "storeWithoutTime" : true,
+        "calendarStartDay" : "monday",
+        "disableWeekends" : false
       },
-      "isRequired" : false,
-      "enabled" : true,
-      "visible" : true,
-      "ignore" : false,
-      "label" : "dasdads",
-      "labelAlign" : "top",
+      "size" : 12,
       "tabIndex" : 0,
+      "label" : "dasdads",
       "id" : "date1",
-      "value" : "{{dasdads}}",
       "type" : "date"
+    } ]
+  }, {
+    "cols" : [ {
+      "designInfo" : {
+        "stencilSuperIds" : [ "base-text" ],
+        "stencilId" : "cloud-text"
+      },
+      "labelAlign" : "top",
+      "value" : "{{anotherText}}",
+      "ignore" : false,
+      "visible" : true,
+      "enabled" : true,
+      "isRequired" : false,
+      "extraSettings" : {
+        "validationPanelDisplay" : "show",
+        "useDelay" : true,
+        "delay" : 200
+      },
+      "size" : 12,
+      "tabIndex" : 0,
+      "label" : "Another text",
+      "id" : "text2",
+      "type" : "text"
     } ]
   }, {
     "cols" : [ {
@@ -90,11 +113,11 @@
       "enabled" : true,
       "visible" : true,
       "ignore" : false,
-      "label" : "Another text",
+      "label" : "New text",
       "labelAlign" : "top",
       "tabIndex" : 0,
-      "value" : "{{anotherText}}",
-      "id" : "text2",
+      "value" : "{{newText}}",
+      "id" : "text3",
       "type" : "text"
     } ]
   } ],
@@ -102,7 +125,7 @@
     "key" : "bPMNTestGitForm",
     "name" : "BPMN test git form",
     "description" : null,
-    "version" : "15",
+    "version" : "2",
     "modelType" : "form",
     "flowableDesignVersion" : 3110,
     "palette" : "flowable-work-form-palette"
