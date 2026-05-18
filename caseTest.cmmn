@@ -26,7 +26,7 @@
           <design:stencilsuperid><![CDATA[Task]]></design:stencilsuperid>
         </extensionElements>
       </humanTask>
-      <humanTask id="HumanTask_2" name="Task 2" flowable:assignee="${initiator}" flowable:candidateUsers="flowableUser" flowable:formFieldValidation="false">
+      <humanTask id="HumanTask_2" name="Task 2" flowable:assignee="${initiator}" flowable:candidateUsers="flowableUser,flowableBla" flowable:formFieldValidation="false">
         <extensionElements>
           <flowable:task-candidates-type><![CDATA[all]]></flowable:task-candidates-type>
           <design:stencilid><![CDATA[HumanTask]]></design:stencilid>
