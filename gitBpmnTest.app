@@ -31,6 +31,9 @@
         "key" : "decisionServiceTest",
         "type" : "decisionService"
       }, {
+        "key" : "caseTest",
+        "type" : "cmmn"
+      }, {
         "key" : "dataObjectTest",
         "type" : "dataObject"
       }, {
