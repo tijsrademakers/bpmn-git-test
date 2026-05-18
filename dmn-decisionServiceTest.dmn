@@ -1,0 +1,151 @@
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:flowable="http://flowable.org/dmn" xmlns:design="http://flowable.org/design" id="definition_decisionServiceTest" name="Decision service test" namespace="http://www.flowable.org/dmn" design:palette="flowable-work-drd-palette">
+  <decision id="Decision_2" name="Decision" flowable:decisionKey="testDecisionTable" design:decisionName="Test decision table">
+    <informationRequirement id="InformationRequirement_3">
+      <requiredDecision href="#Decision_1"></requiredDecision>
+    </informationRequirement>
+    <decisionTable id="decisionTable_outputDecision1_testDecisionTable" hitPolicy="FIRST">
+      <input label="Amount">
+        <inputExpression id="inputExpression_outputDecision1_1" typeRef="number">
+          <text>amount</text>
+        </inputExpression>
+      </input>
+      <input label="Name">
+        <inputExpression id="inputExpression_outputDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0" typeRef="string">
+          <text>customerName</text>
+        </inputExpression>
+      </input>
+      <output id="outputExpression_outputDecision1_2" label="Output" name="output" typeRef="string"></output>
+      <rule>
+        <inputEntry id="inputEntry_outputDecision1_1_1">
+          <text><![CDATA[<= 9]]></text>
+        </inputEntry>
+        <inputEntry id="inputEntry_outputDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0_1">
+          <text><![CDATA[-]]></text>
+        </inputEntry>
+        <outputEntry id="outputEntry_outputDecision1_2_1">
+          <text><![CDATA["Small"]]></text>
+        </outputEntry>
+      </rule>
+      <rule>
+        <inputEntry id="inputEntry_outputDecision1_1_2">
+          <text><![CDATA[-]]></text>
+        </inputEntry>
+        <inputEntry id="inputEntry_outputDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0_2">
+          <text><![CDATA[== "test"]]></text>
+        </inputEntry>
+        <outputEntry id="outputEntry_outputDecision1_2_2">
+          <text><![CDATA["Medium"]]></text>
+        </outputEntry>
+      </rule>
+      <rule>
+        <inputEntry id="inputEntry_outputDecision1_1_3">
+          <text><![CDATA[<= 20]]></text>
+        </inputEntry>
+        <inputEntry id="inputEntry_outputDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0_3">
+          <text><![CDATA[-]]></text>
+        </inputEntry>
+        <outputEntry id="outputEntry_outputDecision1_2_3">
+          <text><![CDATA["Big"]]></text>
+        </outputEntry>
+      </rule>
+      <rule>
+        <inputEntry id="inputEntry_outputDecision1_1_4">
+          <text><![CDATA[<= 20]]></text>
+        </inputEntry>
+        <inputEntry id="inputEntry_outputDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0_4">
+          <text><![CDATA[-]]></text>
+        </inputEntry>
+        <outputEntry id="outputEntry_outputDecision1_2_4">
+          <text><![CDATA["Large"]]></text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <decision id="Decision_1" name="Decision" flowable:decisionKey="testDecisionTable" design:decisionName="Test decision table">
+    <decisionTable id="decisionTable_encapsulatedDecision1_testDecisionTable" hitPolicy="FIRST">
+      <input label="Amount">
+        <inputExpression id="inputExpression_encapsulatedDecision1_1" typeRef="number">
+          <text>amount</text>
+        </inputExpression>
+      </input>
+      <input label="Name">
+        <inputExpression id="inputExpression_encapsulatedDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0" typeRef="string">
+          <text>customerName</text>
+        </inputExpression>
+      </input>
+      <output id="outputExpression_encapsulatedDecision1_2" label="Output" name="output" typeRef="string"></output>
+      <rule>
+        <inputEntry id="inputEntry_encapsulatedDecision1_1_1">
+          <text><![CDATA[<= 9]]></text>
+        </inputEntry>
+        <inputEntry id="inputEntry_encapsulatedDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0_1">
+          <text><![CDATA[-]]></text>
+        </inputEntry>
+        <outputEntry id="outputEntry_encapsulatedDecision1_2_1">
+          <text><![CDATA["Small"]]></text>
+        </outputEntry>
+      </rule>
+      <rule>
+        <inputEntry id="inputEntry_encapsulatedDecision1_1_2">
+          <text><![CDATA[-]]></text>
+        </inputEntry>
+        <inputEntry id="inputEntry_encapsulatedDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0_2">
+          <text><![CDATA[== "test"]]></text>
+        </inputEntry>
+        <outputEntry id="outputEntry_encapsulatedDecision1_2_2">
+          <text><![CDATA["Medium"]]></text>
+        </outputEntry>
+      </rule>
+      <rule>
+        <inputEntry id="inputEntry_encapsulatedDecision1_1_3">
+          <text><![CDATA[<= 20]]></text>
+        </inputEntry>
+        <inputEntry id="inputEntry_encapsulatedDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0_3">
+          <text><![CDATA[-]]></text>
+        </inputEntry>
+        <outputEntry id="outputEntry_encapsulatedDecision1_2_3">
+          <text><![CDATA["Big"]]></text>
+        </outputEntry>
+      </rule>
+      <rule>
+        <inputEntry id="inputEntry_encapsulatedDecision1_1_4">
+          <text><![CDATA[<= 20]]></text>
+        </inputEntry>
+        <inputEntry id="inputEntry_encapsulatedDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0_4">
+          <text><![CDATA[-]]></text>
+        </inputEntry>
+        <outputEntry id="outputEntry_encapsulatedDecision1_2_4">
+          <text><![CDATA["Large"]]></text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <decisionService id="decisionServiceTest" name="Decision service test">
+    <outputDecision href="#Decision_2"></outputDecision>
+    <encapsulatedDecision href="#Decision_1"></encapsulatedDecision>
+  </decisionService>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram id="DMNDiagram_decisionServiceTest" name="Decision service test">
+      <dmndi:Size height="541.0" width="606.0"></dmndi:Size>
+      <dmndi:DMNShape id="DMNShape_decisionServiceTest" dmnElementRef="decisionServiceTest">
+        <dc:Bounds height="541.0" width="606.0" x="150.0" y="74.0"></dc:Bounds>
+        <dmndi:DMNDecisionServiceDividerLine>
+          <di:waypoint x="150.0" y="314.0"></di:waypoint>
+          <di:waypoint x="756.0" y="314.0"></di:waypoint>
+        </dmndi:DMNDecisionServiceDividerLine>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="DMNShape_Decision_2" dmnElementRef="Decision_2">
+        <dc:Bounds height="80.0" width="100.0" x="368.0" y="143.0"></dc:Bounds>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="DMNShape_Decision_1" dmnElementRef="Decision_1">
+        <dc:Bounds height="80.0" width="100.0" x="439.0" y="384.0"></dc:Bounds>
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_InformationRequirement_3" dmnElementRef="InformationRequirement_3">
+        <di:waypoint x="489.0" y="384.0"></di:waypoint>
+        <di:waypoint x="489.0" y="303.5"></di:waypoint>
+        <di:waypoint x="418.0" y="303.5"></di:waypoint>
+        <di:waypoint x="418.0" y="223.0"></di:waypoint>
+      </dmndi:DMNEdge>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>
