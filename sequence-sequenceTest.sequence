@@ -4,7 +4,7 @@
     "digits" : 10
   },
   "increment" : 10,
-  "start" : 10,
+  "start" : 20,
   "name" : "Sequence test",
   "key" : "sequenceTest"
 }

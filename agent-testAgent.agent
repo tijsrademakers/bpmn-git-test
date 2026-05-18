@@ -20,6 +20,8 @@
     }
   },
   "type" : "taskAgent",
+  "name" : "Test agent",
+  "key" : "testAgent",
   "operations" : [ {
     "name" : "Test agent",
     "key" : "testAgent",
@@ -41,10 +43,8 @@
     },
     "behavior" : {
       "type" : "juelExpression",
-      "systemMessage" : "asdadsd",
+      "systemMessage" : "asdadsd2",
       "userMessage" : "dadsdsda ${ name }"
     }
-  } ],
-  "name" : "Test agent",
-  "key" : "testAgent"
+  } ]
 }

@@ -3,8 +3,8 @@
   <process id="bpmnGitTest" name="Bpmn git test" isExecutable="true" flowable:candidateStarterGroups="flowableUser">
     <extensionElements>
       <design:stencilid><![CDATA[BPMNDiagram]]></design:stencilid>
-      <design:creationdate><![CDATA[2026-05-09T13:02:09.286Z]]></design:creationdate>
-      <design:modificationdate><![CDATA[2026-05-18T17:04:20.276Z]]></design:modificationdate>
+      <design:creationdate><![CDATA[2026-05-14T11:21:54.020Z]]></design:creationdate>
+      <design:modificationdate><![CDATA[2026-05-18T17:35:09.526Z]]></design:modificationdate>
     </extensionElements>
     <userTask id="FormTask_1" name="Task 2" flowable:assignee="${initiator}" flowable:formKey="bPMNTestGitForm" flowable:formFieldValidation="false">
       <extensionElements>
@@ -27,7 +27,7 @@
         <design:stencilsuperid><![CDATA[Task]]></design:stencilsuperid>
       </extensionElements>
     </userTask>
-    <userTask id="FormTask_6" name="New task" flowable:assignee="${initiator}" flowable:formFieldValidation="false">
+    <userTask id="FormTask_6" name="New task" flowable:assignee="${initiator}" flowable:candidateGroups="flowableUser" flowable:formFieldValidation="false">
       <extensionElements>
         <flowable:task-candidates-type><![CDATA[all]]></flowable:task-candidates-type>
         <design:stencilid><![CDATA[FormTask]]></design:stencilid>

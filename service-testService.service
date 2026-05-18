@@ -1,8 +1,8 @@
 {
   "type" : "REST",
   "operations" : [ {
-    "name" : "Test operation 2",
-    "key" : "testOperation2",
+    "name" : "Test operation",
+    "key" : "testOperation",
     "inputParameters" : [ {
       "displayName" : "name",
       "name" : "name",
