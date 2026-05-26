@@ -2,9 +2,10 @@
 <definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:flowable="http://flowable.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:design="http://flowable.org/design" typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://flowable.org/test" exporter="Flowable Design" exporterVersion="2026.1.0-SNAPSHOT" design:palette="flowable-work-process-palette">
   <process id="bpmnGitTest" name="Bpmn git test" isExecutable="true" flowable:candidateStarterGroups="flowableUser">
     <extensionElements>
+      <flowable:candidates-type><![CDATA[all]]></flowable:candidates-type>
       <design:stencilid><![CDATA[BPMNDiagram]]></design:stencilid>
-      <design:creationdate><![CDATA[2026-05-09T13:02:09.286Z]]></design:creationdate>
-      <design:modificationdate><![CDATA[2026-05-18T17:45:58.447Z]]></design:modificationdate>
+      <design:creationdate><![CDATA[2026-05-26T10:09:58.402Z]]></design:creationdate>
+      <design:modificationdate><![CDATA[2026-05-26T10:18:45.784Z]]></design:modificationdate>
     </extensionElements>
     <userTask id="FormTask_1" name="Task 2" flowable:assignee="${initiator}" flowable:formKey="bPMNTestGitForm" flowable:formFieldValidation="false">
       <extensionElements>
@@ -27,7 +28,7 @@
         <design:stencilsuperid><![CDATA[Task]]></design:stencilsuperid>
       </extensionElements>
     </userTask>
-    <userTask id="FormTask_6" name="New task" flowable:assignee="${initiator}" flowable:candidateGroups="flowableUser" flowable:formFieldValidation="false">
+    <userTask id="FormTask_6" name="New task 2" flowable:assignee="${initiator}" flowable:candidateGroups="flowableUser" flowable:formFieldValidation="false">
       <extensionElements>
         <flowable:task-candidates-type><![CDATA[all]]></flowable:task-candidates-type>
         <design:stencilid><![CDATA[FormTask]]></design:stencilid>
