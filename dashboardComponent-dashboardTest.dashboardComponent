@@ -3,36 +3,34 @@
     "key" : "queryTest",
     "id" : "QUERY_MODEL-6123a46d-4ebc-11f1-83fa-8e6420ca3589"
   },
-  "type" : "lineChart",
+  "type" : "table",
   "configuration" : {
-    "legend" : {
-      "label" : ""
-    },
-    "interval" : {
-      "label" : "Interval",
-      "type" : "interval",
-      "value" : "day",
-      "values" : [ {
-        "name" : "By Day",
-        "key" : "day"
-      }, {
-        "name" : "By Week",
-        "key" : "week"
-      }, {
-        "name" : "By Month",
-        "key" : "month"
-      }, {
-        "name" : "By Quarter",
-        "key" : "quarter"
-      }, {
-        "name" : "By Year",
-        "key" : "year"
-      } ]
-    }
+    "pageSize" : 25,
+    "columns" : [ ],
+    "options" : [ {
+      "name" : "size",
+      "type" : "long"
+    }, {
+      "name" : "searchAfter",
+      "type" : "array"
+    }, {
+      "name" : "sort",
+      "type" : "sort"
+    } ]
   },
   "queryResultMapping" : {
     "aggregationDefinitions" : [ ]
   },
+  "options" : [ {
+    "name" : "size",
+    "type" : "long"
+  }, {
+    "name" : "searchAfter",
+    "type" : "array"
+  }, {
+    "name" : "sort",
+    "type" : "sort"
+  } ],
   "name" : "dashboard test",
   "key" : "dashboardTest"
 }

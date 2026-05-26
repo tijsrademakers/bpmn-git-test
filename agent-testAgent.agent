@@ -23,7 +23,7 @@
   "name" : "Test agent",
   "key" : "testAgent",
   "operations" : [ {
-    "name" : "Test agent 2",
+    "name" : "Test agent",
     "key" : "testAgent",
     "input" : {
       "inputType" : "structured",
@@ -43,8 +43,8 @@
     },
     "behavior" : {
       "type" : "juelExpression",
-      "systemMessage" : "asdadsd dsfdd",
-      "userMessage" : "dadsdsda ${ name } laksd lasdk "
+      "systemMessage" : "asdadsd2 adds",
+      "userMessage" : "dadsdsda ${ name }"
     }
   } ]
 }
