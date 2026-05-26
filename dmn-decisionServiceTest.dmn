@@ -2,57 +2,57 @@
   <decision id="Decision_2" name="Decision" flowable:decisionKey="testDecisionTable" design:decisionName="Test decision table">
     <decisionTable id="decisionTable_outputDecision1_testDecisionTable" hitPolicy="FIRST">
       <input label="Amount">
-        <inputExpression id="inputExpression_outputDecision1_outputDecision1_1" typeRef="number">
+        <inputExpression id="inputExpression_outputDecision1_outputDecision1_outputDecision1_1" typeRef="number">
           <text>amount</text>
         </inputExpression>
       </input>
       <input label="Name">
-        <inputExpression id="inputExpression_outputDecision1_outputDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0" typeRef="string">
+        <inputExpression id="inputExpression_outputDecision1_outputDecision1_outputDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0" typeRef="string">
           <text>customerName</text>
         </inputExpression>
       </input>
-      <output id="outputExpression_outputDecision1_outputDecision1_2" label="Output" name="output" typeRef="string"></output>
+      <output id="outputExpression_outputDecision1_outputDecision1_outputDecision1_2" label="Output" name="output" typeRef="string"></output>
       <rule>
-        <inputEntry id="inputEntry_outputDecision1_outputDecision1_1_1">
+        <inputEntry id="inputEntry_outputDecision1_outputDecision1_outputDecision1_1_1">
           <text><![CDATA[<= 9]]></text>
         </inputEntry>
-        <inputEntry id="inputEntry_outputDecision1_outputDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0_1">
+        <inputEntry id="inputEntry_outputDecision1_outputDecision1_outputDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0_1">
           <text><![CDATA[-]]></text>
         </inputEntry>
-        <outputEntry id="outputEntry_outputDecision1_outputDecision1_2_1">
+        <outputEntry id="outputEntry_outputDecision1_outputDecision1_outputDecision1_2_1">
           <text><![CDATA["Small"]]></text>
         </outputEntry>
       </rule>
       <rule>
-        <inputEntry id="inputEntry_outputDecision1_outputDecision1_1_2">
+        <inputEntry id="inputEntry_outputDecision1_outputDecision1_outputDecision1_1_2">
           <text><![CDATA[-]]></text>
         </inputEntry>
-        <inputEntry id="inputEntry_outputDecision1_outputDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0_2">
+        <inputEntry id="inputEntry_outputDecision1_outputDecision1_outputDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0_2">
           <text><![CDATA[== "test"]]></text>
         </inputEntry>
-        <outputEntry id="outputEntry_outputDecision1_outputDecision1_2_2">
+        <outputEntry id="outputEntry_outputDecision1_outputDecision1_outputDecision1_2_2">
           <text><![CDATA["Medium"]]></text>
         </outputEntry>
       </rule>
       <rule>
-        <inputEntry id="inputEntry_outputDecision1_outputDecision1_1_3">
+        <inputEntry id="inputEntry_outputDecision1_outputDecision1_outputDecision1_1_3">
           <text><![CDATA[<= 20]]></text>
         </inputEntry>
-        <inputEntry id="inputEntry_outputDecision1_outputDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0_3">
+        <inputEntry id="inputEntry_outputDecision1_outputDecision1_outputDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0_3">
           <text><![CDATA[-]]></text>
         </inputEntry>
-        <outputEntry id="outputEntry_outputDecision1_outputDecision1_2_3">
+        <outputEntry id="outputEntry_outputDecision1_outputDecision1_outputDecision1_2_3">
           <text><![CDATA["Big"]]></text>
         </outputEntry>
       </rule>
       <rule>
-        <inputEntry id="inputEntry_outputDecision1_outputDecision1_1_4">
+        <inputEntry id="inputEntry_outputDecision1_outputDecision1_outputDecision1_1_4">
           <text><![CDATA[<= 20]]></text>
         </inputEntry>
-        <inputEntry id="inputEntry_outputDecision1_outputDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0_4">
+        <inputEntry id="inputEntry_outputDecision1_outputDecision1_outputDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0_4">
           <text><![CDATA[-]]></text>
         </inputEntry>
-        <outputEntry id="outputEntry_outputDecision1_outputDecision1_2_4">
+        <outputEntry id="outputEntry_outputDecision1_outputDecision1_outputDecision1_2_4">
           <text><![CDATA["Large"]]></text>
         </outputEntry>
       </rule>
@@ -61,57 +61,57 @@
   <decision id="Decision_1" name="Decision 3" flowable:decisionKey="testDecisionTable" design:decisionName="Test decision table">
     <decisionTable id="decisionTable_encapsulatedDecision1_testDecisionTable" hitPolicy="FIRST">
       <input label="Amount">
-        <inputExpression id="inputExpression_encapsulatedDecision1_outputDecision1_1" typeRef="number">
+        <inputExpression id="inputExpression_encapsulatedDecision1_outputDecision1_outputDecision1_1" typeRef="number">
           <text>amount</text>
         </inputExpression>
       </input>
       <input label="Name">
-        <inputExpression id="inputExpression_encapsulatedDecision1_outputDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0" typeRef="string">
+        <inputExpression id="inputExpression_encapsulatedDecision1_outputDecision1_outputDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0" typeRef="string">
           <text>customerName</text>
         </inputExpression>
       </input>
-      <output id="outputExpression_encapsulatedDecision1_outputDecision1_2" label="Output" name="output" typeRef="string"></output>
+      <output id="outputExpression_encapsulatedDecision1_outputDecision1_outputDecision1_2" label="Output" name="output" typeRef="string"></output>
       <rule>
-        <inputEntry id="inputEntry_encapsulatedDecision1_outputDecision1_1_1">
+        <inputEntry id="inputEntry_encapsulatedDecision1_outputDecision1_outputDecision1_1_1">
           <text><![CDATA[<= 9]]></text>
         </inputEntry>
-        <inputEntry id="inputEntry_encapsulatedDecision1_outputDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0_1">
+        <inputEntry id="inputEntry_encapsulatedDecision1_outputDecision1_outputDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0_1">
           <text><![CDATA[-]]></text>
         </inputEntry>
-        <outputEntry id="outputEntry_encapsulatedDecision1_outputDecision1_2_1">
+        <outputEntry id="outputEntry_encapsulatedDecision1_outputDecision1_outputDecision1_2_1">
           <text><![CDATA["Small"]]></text>
         </outputEntry>
       </rule>
       <rule>
-        <inputEntry id="inputEntry_encapsulatedDecision1_outputDecision1_1_2">
+        <inputEntry id="inputEntry_encapsulatedDecision1_outputDecision1_outputDecision1_1_2">
           <text><![CDATA[-]]></text>
         </inputEntry>
-        <inputEntry id="inputEntry_encapsulatedDecision1_outputDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0_2">
+        <inputEntry id="inputEntry_encapsulatedDecision1_outputDecision1_outputDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0_2">
           <text><![CDATA[== "test"]]></text>
         </inputEntry>
-        <outputEntry id="outputEntry_encapsulatedDecision1_outputDecision1_2_2">
+        <outputEntry id="outputEntry_encapsulatedDecision1_outputDecision1_outputDecision1_2_2">
           <text><![CDATA["Medium"]]></text>
         </outputEntry>
       </rule>
       <rule>
-        <inputEntry id="inputEntry_encapsulatedDecision1_outputDecision1_1_3">
+        <inputEntry id="inputEntry_encapsulatedDecision1_outputDecision1_outputDecision1_1_3">
           <text><![CDATA[<= 20]]></text>
         </inputEntry>
-        <inputEntry id="inputEntry_encapsulatedDecision1_outputDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0_3">
+        <inputEntry id="inputEntry_encapsulatedDecision1_outputDecision1_outputDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0_3">
           <text><![CDATA[-]]></text>
         </inputEntry>
-        <outputEntry id="outputEntry_encapsulatedDecision1_outputDecision1_2_3">
+        <outputEntry id="outputEntry_encapsulatedDecision1_outputDecision1_outputDecision1_2_3">
           <text><![CDATA["Big"]]></text>
         </outputEntry>
       </rule>
       <rule>
-        <inputEntry id="inputEntry_encapsulatedDecision1_outputDecision1_1_4">
+        <inputEntry id="inputEntry_encapsulatedDecision1_outputDecision1_outputDecision1_1_4">
           <text><![CDATA[<= 20]]></text>
         </inputEntry>
-        <inputEntry id="inputEntry_encapsulatedDecision1_outputDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0_4">
+        <inputEntry id="inputEntry_encapsulatedDecision1_outputDecision1_outputDecision1_4757607f-218c-4fa9-aca0-ec5d8aaea3c0_4">
           <text><![CDATA[-]]></text>
         </inputEntry>
-        <outputEntry id="outputEntry_encapsulatedDecision1_outputDecision1_2_4">
+        <outputEntry id="outputEntry_encapsulatedDecision1_outputDecision1_outputDecision1_2_4">
           <text><![CDATA["Large"]]></text>
         </outputEntry>
       </rule>
@@ -137,12 +137,6 @@
       <dmndi:DMNShape id="DMNShape_Decision_1" dmnElementRef="Decision_1">
         <dc:Bounds height="80.0" width="100.0" x="225.0" y="460.0"></dc:Bounds>
       </dmndi:DMNShape>
-      <dmndi:DMNEdge id="DMNEdge_InformationRequirement_3" dmnElementRef="InformationRequirement_3">
-        <di:waypoint x="275.0" y="460.0"></di:waypoint>
-        <di:waypoint x="275.0" y="341.5"></di:waypoint>
-        <di:waypoint x="418.0" y="341.5"></di:waypoint>
-        <di:waypoint x="418.0" y="223.0"></di:waypoint>
-      </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>
 </definitions>
