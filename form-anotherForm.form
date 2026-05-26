@@ -27,7 +27,7 @@
     "key" : "anotherForm",
     "name" : "Another form",
     "description" : null,
-    "version" : "4",
+    "version" : "1",
     "modelType" : "form",
     "flowableDesignVersion" : 3110,
     "palette" : "flowable-work-form-palette"

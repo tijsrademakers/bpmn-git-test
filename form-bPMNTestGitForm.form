@@ -125,7 +125,7 @@
     "key" : "bPMNTestGitForm",
     "name" : "BPMN test git form",
     "description" : null,
-    "version" : "17",
+    "version" : "1",
     "modelType" : "form",
     "flowableDesignVersion" : 3110,
     "palette" : "flowable-work-form-palette"

@@ -5,17 +5,17 @@
         "stencilSuperIds" : [ "Component" ],
         "stencilId" : "work-case-list"
       },
-      "extraSettings" : {
-        "validationPanelDisplay" : "show",
-        "showTotal" : false,
-        "style" : "wide"
-      },
-      "visible" : true,
-      "ignore" : false,
       "label" : "Case list",
       "labelAlign" : "top",
+      "ignore" : false,
+      "visible" : true,
       "enabled" : true,
       "isRequired" : false,
+      "extraSettings" : {
+        "validationPanelDisplay" : "show",
+        "style" : "wide",
+        "showTotal" : false
+      },
       "size" : 12,
       "id" : "work-case-list1",
       "type" : "workCaseList"
@@ -26,20 +26,20 @@
         "stencilSuperIds" : [ "base-text" ],
         "stencilId" : "cloud-text"
       },
-      "size" : 12,
+      "labelAlign" : "top",
+      "value" : "{{bla}}",
+      "ignore" : false,
+      "visible" : true,
+      "enabled" : true,
+      "isRequired" : false,
       "extraSettings" : {
         "validationPanelDisplay" : "show",
         "useDelay" : true,
         "delay" : 200
       },
-      "isRequired" : false,
-      "enabled" : true,
-      "visible" : true,
-      "ignore" : false,
-      "label" : "bla",
-      "labelAlign" : "top",
+      "size" : 12,
       "tabIndex" : 0,
-      "value" : "{{bla}}",
+      "label" : "bla",
       "id" : "text1",
       "type" : "text"
     } ]
@@ -48,7 +48,7 @@
     "key" : "pageTest",
     "name" : "Page test",
     "description" : null,
-    "version" : "3",
+    "version" : "1",
     "modelType" : "page",
     "flowableDesignVersion" : 3110,
     "palette" : "flowable-work-page-palette"

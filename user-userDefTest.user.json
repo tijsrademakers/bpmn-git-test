@@ -14,10 +14,10 @@
     "deactivate" : { }
   },
   "actionPermissions" : { },
-  "forms" : {
-    "edit" : "userEditForm"
-  },
   "icon" : "arrows-up-down/regular",
   "name" : "User def test",
-  "key" : "userDefTest"
+  "key" : "userDefTest",
+  "forms" : {
+    "edit" : "userEditForm"
+  }
 }
