@@ -2,7 +2,7 @@
   "key" : "gitBpmnTest",
   "name" : "Git bpmn test app",
   "description" : "",
-  "theme" : "theme-5",
+  "theme" : "theme-6",
   "icon" : "battery-half",
   "usersAccess" : "admin",
   "groupsAccess" : "flowableUser",
