@@ -5,7 +5,7 @@
   "theme" : "theme-3",
   "icon" : "acorn",
   "usersAccess" : "",
-  "groupsAccess" : "",
+  "groupsAccess" : "flowableUser",
   "flowApp" : true,
   "url" : "gitBpmnTest",
   "paletteDefinitionCategory" : "work",
@@ -98,17 +98,25 @@
   },
   "identityLinks" : [ {
     "type" : "owner",
+    "user" : "bla"
+  }, {
+    "type" : "owner",
     "group" : "flowableUser"
   }, {
     "type" : "owner",
     "group" : "flowableAdmin"
   }, {
     "type" : "owner",
-    "user" : "bla"
+    "user" : "test"
   } ],
   "documents" : [ {
     "id" : "15d33547-59d7-11f1-bfea-561a4ebb3e4c",
     "name" : "Vueling.pdf",
+    "type" : "document-file",
+    "resourceType" : "application/pdf"
+  }, {
+    "id" : "545978ac-59dd-11f1-a4e1-561a4ebb3e4c",
+    "name" : "gurock-invoice-R758689.pdf",
     "type" : "document-file",
     "resourceType" : "application/pdf"
   }, {
