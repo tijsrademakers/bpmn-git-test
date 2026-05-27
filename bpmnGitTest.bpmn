@@ -5,7 +5,7 @@
       <flowable:candidates-type><![CDATA[all]]></flowable:candidates-type>
       <design:stencilid><![CDATA[BPMNDiagram]]></design:stencilid>
       <design:creationdate><![CDATA[2026-05-26T14:40:20.443Z]]></design:creationdate>
-      <design:modificationdate><![CDATA[2026-05-26T14:49:45.540Z]]></design:modificationdate>
+      <design:modificationdate><![CDATA[2026-05-27T06:16:04.083Z]]></design:modificationdate>
     </extensionElements>
     <userTask id="FormTask_1" name="Task 2" flowable:assignee="${initiator}" flowable:formKey="bPMNTestGitForm" flowable:formFieldValidation="false">
       <extensionElements>
@@ -28,7 +28,7 @@
         <design:stencilsuperid><![CDATA[Task]]></design:stencilsuperid>
       </extensionElements>
     </userTask>
-    <userTask id="FormTask_6" name="New task 6" flowable:assignee="${initiator}" flowable:candidateGroups="flowableUser" flowable:formFieldValidation="false">
+    <userTask id="FormTask_6" name="New task 8" flowable:assignee="${initiator}" flowable:candidateGroups="flowableUser" flowable:formFieldValidation="false">
       <extensionElements>
         <flowable:task-candidates-type><![CDATA[all]]></flowable:task-candidates-type>
         <design:stencilid><![CDATA[FormTask]]></design:stencilid>
