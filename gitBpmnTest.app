@@ -1,11 +1,11 @@
 {
   "key" : "gitBpmnTest",
-  "name" : "Git bpmn test",
-  "description" : null,
-  "theme" : "theme-1",
-  "icon" : "glyphicon-asterisk",
-  "usersAccess" : null,
-  "groupsAccess" : null,
+  "name" : "Git bpmn test app",
+  "description" : "",
+  "theme" : "theme-5",
+  "icon" : "battery-half",
+  "usersAccess" : "admin",
+  "groupsAccess" : "flowableUser",
   "flowApp" : true,
   "url" : "gitBpmnTest",
   "paletteDefinitionCategory" : "work",
@@ -98,5 +98,20 @@
         "type" : "agent"
       } ]
     }
-  }
+  },
+  "identityLinks" : [ {
+    "type" : "owner",
+    "group" : "flowableUser"
+  } ],
+  "documents" : [ {
+    "id" : "1a6e1f81-59c5-11f1-9708-561a4ebb3e4c",
+    "name" : "Mixpanel_tracking_template.xlsx",
+    "type" : "document-file",
+    "resourceType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+  }, {
+    "id" : "8a9d156c-59bc-11f1-9691-561a4ebb3e4c",
+    "name" : "sampleok.docx",
+    "type" : "document-file",
+    "resourceType" : "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  } ]
 }
