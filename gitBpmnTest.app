@@ -6,53 +6,75 @@
   "icon" : "glyphicon-asterisk",
   "usersAccess" : null,
   "groupsAccess" : null,
-  "flowApp" : false,
-  "url" : null,
+  "flowApp" : true,
+  "url" : "gitBpmnTest",
   "paletteDefinitionCategory" : "work",
+  "pageModels" : [ {
+    "key" : "pageTest",
+    "name" : "Page test",
+    "url" : "pageTest",
+    "label" : "Page test",
+    "accessPermissions" : null
+  } ],
   "extension" : {
     "design" : {
       "childModels" : [ {
-        "key" : "testAgent",
-        "type" : "agent"
-      }, {
-        "key" : "userDefTest",
-        "type" : "user"
-      }, {
-        "key" : "knowledgeBaseTest",
-        "type" : "knowledgeBase"
-      }, {
-        "key" : "sequenceTest",
-        "type" : "sequence"
-      }, {
-        "key" : "variableExtractTest",
-        "type" : "variableExtractor"
-      }, {
-        "key" : "channelTest",
-        "type" : "channel"
-      }, {
-        "key" : "anotherForm",
+        "key" : "userEditForm",
         "type" : "form"
-      }, {
-        "key" : "testEvent",
-        "type" : "event"
-      }, {
-        "key" : "bpmnGitTest",
-        "type" : "bpmn"
       }, {
         "key" : "securityPolicyTest",
         "type" : "security"
       }, {
-        "key" : "actionTest",
-        "type" : "action"
+        "key" : "templateTest",
+        "type" : "template"
+      }, {
+        "key" : "decisionServiceTest",
+        "type" : "decisionService"
+      }, {
+        "key" : "caseTest",
+        "type" : "cmmn"
+      }, {
+        "key" : "dataObjectTest",
+        "type" : "dataObject"
+      }, {
+        "key" : "bpmnGitTest",
+        "type" : "bpmn"
+      }, {
+        "key" : "sLATest",
+        "type" : "sla"
+      }, {
+        "key" : "channelTest",
+        "type" : "channel"
       }, {
         "key" : "testDataDictionary",
         "type" : "dataDictionary"
       }, {
+        "key" : "queryTest",
+        "type" : "query"
+      }, {
+        "key" : "actionTest",
+        "type" : "action"
+      }, {
         "key" : "testDecisionTable",
         "type" : "dmn"
       }, {
-        "key" : "caseTest",
-        "type" : "cmmn"
+        "key" : "bPMNTestGitForm",
+        "type" : "form"
+      }, {
+        "key" : "masterDataTest",
+        "type" : "masterData"
+      }, {
+        "key" : "variableExtractTest",
+        "type" : "variableExtractor"
+      }, {
+        "key" : "sequenceTest",
+        "type" : "sequence"
+      }, {
+        "key" : "testEvent",
+        "type" : "event"
+      }, {
+        "key" : "knowledgeBaseTest",
+        "type" : "knowledgeBase"
       }, {
         "key" : "dashboardTest",
         "type" : "dashboardComponent"
@@ -60,23 +82,20 @@
         "key" : "testService",
         "type" : "service"
       }, {
-        "key" : "masterDataTest",
-        "type" : "masterData"
-      }, {
-        "key" : "sLATest",
-        "type" : "sla"
-      }, {
-        "key" : "dataObjectTest",
-        "type" : "dataObject"
-      }, {
-        "key" : "queryTest",
-        "type" : "query"
-      }, {
-        "key" : "decisionServiceTest",
-        "type" : "decisionService"
-      }, {
-        "key" : "bPMNTestGitForm",
+        "key" : "anotherForm",
         "type" : "form"
+      }, {
+        "key" : "testContentModel",
+        "type" : "document"
+      }, {
+        "key" : "contentTestForm",
+        "type" : "form"
+      }, {
+        "key" : "userDefTest",
+        "type" : "user"
+      }, {
+        "key" : "testAgent",
+        "type" : "agent"
       } ]
     }
   }
