@@ -1,11 +1,11 @@
 {
   "key" : "gitBpmnTest",
-  "name" : "Git bpmn test app",
-  "description" : "",
-  "theme" : "theme-6",
-  "icon" : "battery-half",
-  "usersAccess" : "admin",
-  "groupsAccess" : "flowableUser",
+  "name" : "Git bpmn test",
+  "description" : null,
+  "theme" : "theme-1",
+  "icon" : "glyphicon-asterisk",
+  "usersAccess" : null,
+  "groupsAccess" : null,
   "flowApp" : true,
   "url" : "gitBpmnTest",
   "paletteDefinitionCategory" : "work",
@@ -19,62 +19,35 @@
   "extension" : {
     "design" : {
       "childModels" : [ {
-        "key" : "userEditForm",
-        "type" : "form"
+        "key" : "testAgent",
+        "type" : "agent"
       }, {
-        "key" : "securityPolicyTest",
-        "type" : "security"
-      }, {
-        "key" : "templateTest",
-        "type" : "template"
-      }, {
-        "key" : "decisionServiceTest",
-        "type" : "decisionService"
-      }, {
-        "key" : "caseTest",
-        "type" : "cmmn"
-      }, {
-        "key" : "dataObjectTest",
-        "type" : "dataObject"
-      }, {
-        "key" : "bpmnGitTest",
-        "type" : "bpmn"
-      }, {
-        "key" : "sLATest",
-        "type" : "sla"
-      }, {
-        "key" : "channelTest",
-        "type" : "channel"
-      }, {
-        "key" : "testDataDictionary",
-        "type" : "dataDictionary"
-      }, {
-        "key" : "queryTest",
-        "type" : "query"
-      }, {
-        "key" : "actionTest",
-        "type" : "action"
-      }, {
-        "key" : "testDecisionTable",
-        "type" : "dmn"
-      }, {
-        "key" : "bPMNTestGitForm",
-        "type" : "form"
-      }, {
-        "key" : "masterDataTest",
-        "type" : "masterData"
-      }, {
-        "key" : "variableExtractTest",
-        "type" : "variableExtractor"
+        "key" : "knowledgeBaseTest",
+        "type" : "knowledgeBase"
       }, {
         "key" : "sequenceTest",
         "type" : "sequence"
       }, {
+        "key" : "variableExtractTest",
+        "type" : "variableExtractor"
+      }, {
+        "key" : "anotherForm",
+        "type" : "form"
+      }, {
         "key" : "testEvent",
         "type" : "event"
       }, {
-        "key" : "knowledgeBaseTest",
-        "type" : "knowledgeBase"
+        "key" : "bpmnGitTest",
+        "type" : "bpmn"
+      }, {
+        "key" : "securityPolicyTest",
+        "type" : "security"
+      }, {
+        "key" : "testDataDictionary",
+        "type" : "dataDictionary"
+      }, {
+        "key" : "testDecisionTable",
+        "type" : "dmn"
       }, {
         "key" : "dashboardTest",
         "type" : "dashboardComponent"
@@ -82,36 +55,39 @@
         "key" : "testService",
         "type" : "service"
       }, {
-        "key" : "anotherForm",
+        "key" : "masterDataTest",
+        "type" : "masterData"
+      }, {
+        "key" : "sLATest",
+        "type" : "sla"
+      }, {
+        "key" : "queryTest",
+        "type" : "query"
+      }, {
+        "key" : "bPMNTestGitForm",
         "type" : "form"
       }, {
-        "key" : "testContentModel",
-        "type" : "document"
+        "key" : "decisionServiceTest",
+        "type" : "decisionService"
       }, {
-        "key" : "contentTestForm",
-        "type" : "form"
+        "key" : "caseTest",
+        "type" : "cmmn"
       }, {
         "key" : "userDefTest",
         "type" : "user"
       }, {
-        "key" : "testAgent",
-        "type" : "agent"
+        "key" : "channelTest",
+        "type" : "channel"
+      }, {
+        "key" : "actionTest",
+        "type" : "action"
+      }, {
+        "key" : "dataObjectTest",
+        "type" : "dataObject"
+      }, {
+        "key" : "templateTest",
+        "type" : "template"
       } ]
     }
-  },
-  "identityLinks" : [ {
-    "type" : "owner",
-    "group" : "flowableUser"
-  } ],
-  "documents" : [ {
-    "id" : "1a6e1f81-59c5-11f1-9708-561a4ebb3e4c",
-    "name" : "Mixpanel_tracking_template.xlsx",
-    "type" : "document-file",
-    "resourceType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-  }, {
-    "id" : "8a9d156c-59bc-11f1-9691-561a4ebb3e4c",
-    "name" : "sampleok.docx",
-    "type" : "document-file",
-    "resourceType" : "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-  } ]
+  }
 }
