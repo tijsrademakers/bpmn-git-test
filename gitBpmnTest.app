@@ -1,11 +1,11 @@
 {
   "key" : "gitBpmnTest",
   "name" : "Git bpmn test",
-  "description" : null,
-  "theme" : "theme-1",
-  "icon" : "glyphicon-asterisk",
-  "usersAccess" : null,
-  "groupsAccess" : null,
+  "description" : "",
+  "theme" : "theme-3",
+  "icon" : "acorn",
+  "usersAccess" : "",
+  "groupsAccess" : "",
   "flowApp" : true,
   "url" : "gitBpmnTest",
   "paletteDefinitionCategory" : "work",
@@ -14,6 +14,12 @@
     "name" : "Page test",
     "url" : "pageTest",
     "label" : "Page test",
+    "accessPermissions" : null
+  }, {
+    "key" : "newPageModel",
+    "name" : "New page model",
+    "url" : "newPageModel",
+    "label" : "New page model",
     "accessPermissions" : null
   } ],
   "extension" : {
@@ -93,10 +99,21 @@
   "identityLinks" : [ {
     "type" : "owner",
     "group" : "flowableUser"
+  }, {
+    "type" : "owner",
+    "group" : "flowableAdmin"
+  }, {
+    "type" : "owner",
+    "user" : "bla"
   } ],
   "documents" : [ {
     "id" : "15d33547-59d7-11f1-bfea-561a4ebb3e4c",
     "name" : "Vueling.pdf",
+    "type" : "document-file",
+    "resourceType" : "application/pdf"
+  }, {
+    "id" : "94467776-59d8-11f1-ad2f-561a4ebb3e4c",
+    "name" : "Invoice-DEQUE-28330.pdf",
     "type" : "document-file",
     "resourceType" : "application/pdf"
   }, {
