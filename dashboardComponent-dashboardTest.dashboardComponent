@@ -1,36 +1,4 @@
 {
-  "queryModel" : {
-    "key" : "queryTest",
-    "id" : "QUERY_MODEL-6123a46d-4ebc-11f1-83fa-8e6420ca3589"
-  },
-  "type" : "table",
-  "configuration" : {
-    "pageSize" : 25,
-    "columns" : [ ],
-    "options" : [ {
-      "name" : "size",
-      "type" : "long"
-    }, {
-      "name" : "searchAfter",
-      "type" : "array"
-    }, {
-      "name" : "sort",
-      "type" : "sort"
-    } ]
-  },
-  "queryResultMapping" : {
-    "aggregationDefinitions" : [ ]
-  },
-  "options" : [ {
-    "name" : "size",
-    "type" : "long"
-  }, {
-    "name" : "searchAfter",
-    "type" : "array"
-  }, {
-    "name" : "sort",
-    "type" : "sort"
-  } ],
   "name" : "dashboard test",
   "key" : "dashboardTest"
 }

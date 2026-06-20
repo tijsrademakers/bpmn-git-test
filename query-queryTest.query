@@ -1,29 +1,4 @@
 {
-  "configuration" : {
-    "paginationDefinition" : {
-      "enable" : true
-    },
-    "isSafeQuery" : true,
-    "filterDefinition" : {
-      "logicalOperator" : "and",
-      "members" : [ {
-        "type" : "activeStatic",
-        "value" : true
-      }, {
-        "type" : "businessStatusStatic",
-        "value" : "ddd"
-      } ],
-      "inputParameters" : [ ]
-    },
-    "responseDefinition" : {
-      "returnResults" : true,
-      "fields" : [ "callbackId", "caseDefinitionId", "caseDefinitionKey" ],
-      "variables" : [ ]
-    }
-  },
-  "sourceIndex" : "case-instances",
-  "subType" : "query-builder",
-  "type" : "standard",
   "name" : "Query test",
   "key" : "queryTest"
 }

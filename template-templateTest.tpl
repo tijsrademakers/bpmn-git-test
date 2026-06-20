@@ -1,13 +1,7 @@
 {
   "key" : "templateTest",
   "name" : "Template test",
-  "templateType" : "text",
-  "variationContentType" : "plainTextTemplate",
-  "variationDefinitions" : [ {
-    "name" : "language",
-    "key" : "language",
-    "defaultValue" : "en"
-  } ],
-  "versionTimestamp" : "2026-05-27 14:04:15",
+  "templateType" : "document",
+  "versionTimestamp" : "2026-06-09 16:46:30",
   "description" : null
 }

@@ -2,27 +2,14 @@
   "key" : "gitBpmnTest",
   "name" : "Git bpmn test",
   "description" : "",
-  "theme" : "theme-3",
-  "icon" : "acorn",
-  "usersAccess" : "",
-  "groupsAccess" : "flowableUser",
-  "flowApp" : true,
-  "url" : "gitBpmnTest",
+  "theme" : null,
+  "icon" : null,
+  "usersAccess" : null,
+  "groupsAccess" : null,
+  "flowApp" : false,
+  "url" : null,
   "workspaceKey" : "githubWorkspace",
   "paletteDefinitionCategory" : "work",
-  "pageModels" : [ {
-    "key" : "pageTest",
-    "name" : "Page test",
-    "url" : "pageTest",
-    "label" : "Page test",
-    "accessPermissions" : null
-  }, {
-    "key" : "newPageModel",
-    "name" : "New page model",
-    "url" : "newPageModel",
-    "label" : "New page model",
-    "accessPermissions" : null
-  } ],
   "extension" : {
     "design" : {
       "childModels" : [ {

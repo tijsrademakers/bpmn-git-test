@@ -1,34 +1,4 @@
 {
-  "escalationDefinitions" : [ {
-    "stepId" : "step1",
-    "escalationType" : "completion",
-    "escalationTimeUnit" : "hour",
-    "escalationRelativeType" : "before",
-    "condition" : "",
-    "actionConfig" : [ {
-      "type" : "assignee",
-      "selectionType" : "static",
-      "value" : "amanda.long"
-    } ],
-    "action" : "assignment",
-    "escalationTimeValue" : "8"
-  } ],
-  "slaType" : "completion",
-  "inProgressStartDueDateTimeUnit" : "second",
-  "completionDueDateTimeUnit" : "hour",
-  "completionDueDateValue" : "48",
-  "businessCalendarType" : "working_week",
-  "initializationDefinitions" : [ {
-    "condition" : "",
-    "actionConfig" : {
-      "withExpressionValueType" : "default",
-      "value" : "100"
-    },
-    "action" : "priority"
-  } ],
-  "assignmentDefinitions" : [ ],
-  "completionDefinitions" : [ ],
-  "businessCalendarValue" : "extended",
   "name" : "SLA test",
   "key" : "sLATest"
 }
