@@ -23,10 +23,20 @@
       }, {
         "activityId" : "FormTask_1",
         "actions" : [ {
+          "type" : "testValue",
+          "name" : "saddasads",
+          "value" : {
+            "name" : "saddasads",
+            "type" : "string",
+            "value" : "bla"
+          },
+          "valueType" : "json",
+          "transactionBoundary" : "after"
+        }, {
           "type" : "completeTaskForm",
           "name" : "bPMNTestGitForm",
           "value" : {
-            "saddasads" : "bla2",
+            "saddasads" : "bla3",
             "someNumber" : 31,
             "dasdads" : "2026-06-20",
             "anotherText" : "test",
@@ -41,16 +51,6 @@
           },
           "valueType" : "value",
           "transactionBoundary" : "before"
-        }, {
-          "type" : "testValue",
-          "name" : "saddasads",
-          "value" : {
-            "name" : "saddasads",
-            "type" : "string",
-            "value" : "bla"
-          },
-          "valueType" : "json",
-          "transactionBoundary" : "after"
         } ]
       }, {
         "activityId" : "FormTask_3",
