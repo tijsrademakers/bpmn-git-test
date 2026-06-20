@@ -26,7 +26,7 @@
           "type" : "completeTaskForm",
           "name" : "bPMNTestGitForm",
           "value" : {
-            "saddasads" : "bla",
+            "saddasads" : "bla2",
             "someNumber" : 31,
             "dasdads" : "2026-06-20",
             "anotherText" : "test",
