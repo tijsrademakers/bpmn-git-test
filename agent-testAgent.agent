@@ -1,4 +1,53 @@
 {
+  "enableChat" : false,
+  "api" : {
+    "enableApiEndpoint" : true,
+    "apiEndpointUserGroup" : [ "flowableUser" ]
+  },
+  "externalAgentSettings" : {
+    "apiKey" : {
+      "type" : "default"
+    }
+  },
+  "audit" : {
+    "knowledgeBaseLink" : true,
+    "lowLevelExchange" : true,
+    "basicAgentUsage" : true
+  },
+  "documentClassification" : {
+    "behavior" : {
+      "type" : "default"
+    },
+    "noMatchBehavior" : {
+      "type" : "leaveUnqualified"
+    }
+  },
+  "type" : "taskAgent",
   "name" : "Test agent",
-  "key" : "testAgent"
+  "key" : "testAgent",
+  "operations" : [ {
+    "name" : "Test agent",
+    "key" : "testAgent",
+    "input" : {
+      "inputType" : "structured",
+      "inputParameters" : [ {
+        "label" : "Name",
+        "name" : "name",
+        "type" : "string",
+        "required" : true
+      }, {
+        "label" : "Age",
+        "name" : "age",
+        "type" : "integer"
+      } ]
+    },
+    "output" : {
+      "outputType" : "text"
+    },
+    "behavior" : {
+      "type" : "juelExpression",
+      "systemMessage" : "asdadsd2 adds",
+      "userMessage" : "dadsdsda ${ name }"
+    }
+  } ]
 }
