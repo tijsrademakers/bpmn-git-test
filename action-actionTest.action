@@ -1,4 +1,11 @@
 {
+  "permissionGroups" : [ "flowableUser" ],
+  "config" : { },
+  "icon" : "balloons/regular",
+  "ignoreConfirmationMessage" : true,
+  "confirmationTitleCode" : "",
+  "signalName" : "bpmnGitTest",
+  "botKey" : "bpmn-start-process-instance-bot",
   "name" : "Action test",
   "key" : "actionTest"
 }
