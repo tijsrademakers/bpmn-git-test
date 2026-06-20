@@ -8,6 +8,7 @@
   "groupsAccess" : "flowableUser",
   "flowApp" : true,
   "url" : "gitBpmnTest",
+  "workspaceKey" : "githubWorkspace",
   "paletteDefinitionCategory" : "work",
   "pageModels" : [ {
     "key" : "pageTest",
@@ -67,9 +68,6 @@
         "key" : "caseTest",
         "type" : "cmmn"
       }, {
-        "key" : "templateTest",
-        "type" : "template"
-      }, {
         "key" : "dashboardTest",
         "type" : "dashboardComponent"
       }, {
@@ -93,44 +91,47 @@
       }, {
         "key" : "bPMNTestGitForm",
         "type" : "form"
+      }, {
+        "key" : "templateTest",
+        "type" : "template"
       } ]
     }
   },
   "identityLinks" : [ {
     "type" : "owner",
-    "user" : "bla"
+    "group" : "flowableAdmin"
   }, {
     "type" : "owner",
     "group" : "flowableUser"
   }, {
     "type" : "owner",
-    "group" : "flowableAdmin"
+    "user" : "bla"
   }, {
     "type" : "owner",
     "user" : "test"
   } ],
   "documents" : [ {
-    "id" : "15d33547-59d7-11f1-bfea-561a4ebb3e4c",
-    "name" : "Vueling.pdf",
-    "type" : "document-file",
-    "resourceType" : "application/pdf"
-  }, {
-    "id" : "545978ac-59dd-11f1-a4e1-561a4ebb3e4c",
-    "name" : "gurock-invoice-R758689.pdf",
-    "type" : "document-file",
-    "resourceType" : "application/pdf"
-  }, {
-    "id" : "94467776-59d8-11f1-ad2f-561a4ebb3e4c",
+    "id" : "c3fab89e-6422-11f1-907a-6aa6d1cff9c0",
     "name" : "Invoice-DEQUE-28330.pdf",
     "type" : "document-file",
     "resourceType" : "application/pdf"
   }, {
-    "id" : "b8f600ef-59d2-11f1-8a74-561a4ebb3e4c",
+    "id" : "c3fab89f-6422-11f1-907a-6aa6d1cff9c0",
     "name" : "Mixpanel_tracking_template.xlsx",
     "type" : "document-file",
     "resourceType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
   }, {
-    "id" : "b8f62800-59d2-11f1-8a74-561a4ebb3e4c",
+    "id" : "c3fab89c-6422-11f1-907a-6aa6d1cff9c0",
+    "name" : "Vueling.pdf",
+    "type" : "document-file",
+    "resourceType" : "application/pdf"
+  }, {
+    "id" : "c3fab89d-6422-11f1-907a-6aa6d1cff9c0",
+    "name" : "gurock-invoice-R758689.pdf",
+    "type" : "document-file",
+    "resourceType" : "application/pdf"
+  }, {
+    "id" : "c3fab8a0-6422-11f1-907a-6aa6d1cff9c0",
     "name" : "sampleok.docx",
     "type" : "document-file",
     "resourceType" : "application/vnd.openxmlformats-officedocument.wordprocessingml.document"

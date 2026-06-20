@@ -4,8 +4,8 @@
     <extensionElements>
       <flowable:candidates-type><![CDATA[all]]></flowable:candidates-type>
       <design:stencilid><![CDATA[BPMNDiagram]]></design:stencilid>
-      <design:creationdate><![CDATA[2026-05-14T11:21:54.020Z]]></design:creationdate>
-      <design:modificationdate><![CDATA[2026-05-27T14:04:15.884Z]]></design:modificationdate>
+      <design:creationdate><![CDATA[2026-06-09T16:46:30.451Z]]></design:creationdate>
+      <design:modificationdate><![CDATA[2026-06-19T20:26:43.926Z]]></design:modificationdate>
     </extensionElements>
     <userTask id="FormTask_1" name="Task 2" flowable:assignee="${initiator}" flowable:formKey="bPMNTestGitForm" flowable:formFieldValidation="false">
       <extensionElements>
@@ -90,11 +90,11 @@
         <omgdc:Bounds height="30.0" width="30.0" x="317.0" y="261.0"></omgdc:Bounds>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape bpmnElement="EndNoneEvent_5" id="BPMNShape_EndNoneEvent_5">
-        <omgdc:Bounds height="28.0" width="28.0" x="1047.0" y="262.0"></omgdc:Bounds>
+        <omgdc:Bounds height="28.0" width="28.0" x="1054.0" y="262.0"></omgdc:Bounds>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge bpmnElement="SequenceFlow_8" id="BPMNEdge_SequenceFlow_8" flowable:sourceDockerX="50.0" flowable:sourceDockerY="40.0" flowable:targetDockerX="14.0" flowable:targetDockerY="14.0">
         <omgdi:waypoint x="980.0" y="276.0"></omgdi:waypoint>
-        <omgdi:waypoint x="1047.0" y="276.0"></omgdi:waypoint>
+        <omgdi:waypoint x="1054.0" y="276.0"></omgdi:waypoint>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge bpmnElement="SequenceFlow_6" id="BPMNEdge_SequenceFlow_6" flowable:sourceDockerX="50.0" flowable:sourceDockerY="40.0" flowable:targetDockerX="50.0" flowable:targetDockerY="40.0">
         <omgdi:waypoint x="647.0" y="276.0"></omgdi:waypoint>
@@ -102,8 +102,6 @@
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge bpmnElement="SequenceFlow_7" id="BPMNEdge_SequenceFlow_7" flowable:sourceDockerX="50.0" flowable:sourceDockerY="40.0" flowable:targetDockerX="50.0" flowable:targetDockerY="40.0">
         <omgdi:waypoint x="820.0" y="276.0"></omgdi:waypoint>
-        <omgdi:waypoint x="850.0" y="276.0"></omgdi:waypoint>
-        <omgdi:waypoint x="850.0" y="276.0"></omgdi:waypoint>
         <omgdi:waypoint x="880.0" y="276.0"></omgdi:waypoint>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge bpmnElement="SequenceFlow_4" id="BPMNEdge_SequenceFlow_4" flowable:sourceDockerX="50.0" flowable:sourceDockerY="40.0" flowable:targetDockerX="50.0" flowable:targetDockerY="40.0">
