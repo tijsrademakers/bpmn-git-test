@@ -1,0 +1,61 @@
+{
+  "key" : "gitBpmnTest_bpmn_bpmnGitTest",
+  "name" : "gitBpmnTest - bpmnGitTest",
+  "scopeType" : "bpmn",
+  "scopeDefinitionKey" : "bpmnGitTest",
+  "extension" : {
+    "design" : {
+      "exportedFromAppKey" : "gitBpmnTest"
+    }
+  },
+  "testSets" : [ {
+    "key" : "happyPathA",
+    "name" : "Happy path A",
+    "testDefinitions" : [ {
+      "name" : "Test A",
+      "key" : "testA",
+      "steps" : [ {
+        "activityId" : "startnoneevent1",
+        "activityType" : "",
+        "actions" : [ {
+          "type" : "startProcessInstance"
+        } ]
+      }, {
+        "activityId" : "FormTask_1",
+        "actions" : [ {
+          "type" : "completeTaskForm",
+          "name" : "bPMNTestGitForm",
+          "value" : {
+            "saddasads" : "bla",
+            "someNumber" : 31,
+            "dasdads" : "2026-06-20",
+            "anotherText" : "test",
+            "newText" : "new"
+          },
+          "valueType" : "json",
+          "transactionBoundary" : "before"
+        }, {
+          "type" : "formOutcome",
+          "value" : {
+            "value" : "__COMPLETE"
+          },
+          "valueType" : "value",
+          "transactionBoundary" : "before"
+        } ]
+      }, {
+        "activityId" : "FormTask_3",
+        "actions" : [ {
+          "type" : "completeTask"
+        } ]
+      }, {
+        "activityId" : "FormTask_5",
+        "actions" : [ {
+          "type" : "completeTask"
+        } ]
+      }, {
+        "activityId" : "EndNoneEvent_5",
+        "actions" : [ ]
+      } ]
+    } ]
+  } ]
+}
