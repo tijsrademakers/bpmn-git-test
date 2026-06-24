@@ -47,11 +47,11 @@
         <cmmndi:CMMNLabel></cmmndi:CMMNLabel>
       </cmmndi:CMMNShape>
       <cmmndi:CMMNShape id="CMMNShape_planItemHumanTask_2" cmmnElementRef="planItemHumanTask_2">
-        <dc:Bounds height="80.0" width="100.0" x="642.0" y="204.0"></dc:Bounds>
+        <dc:Bounds height="80.0" width="100.0" x="552.0" y="204.0"></dc:Bounds>
         <cmmndi:CMMNLabel></cmmndi:CMMNLabel>
       </cmmndi:CMMNShape>
       <cmmndi:CMMNShape id="CMMNShape_EntryCriterion_3" cmmnElementRef="EntryCriterion_3">
-        <dc:Bounds height="28.0" width="18.0" x="633.0" y="230.0"></dc:Bounds>
+        <dc:Bounds height="28.0" width="18.0" x="543.0" y="230.0"></dc:Bounds>
         <cmmndi:CMMNLabel></cmmndi:CMMNLabel>
       </cmmndi:CMMNShape>
       <cmmndi:CMMNEdge id="CMMNEdge_Connector_4" cmmnElementRef="planItemHumanTask_1" targetCMMNElementRef="EntryCriterion_3">
@@ -60,7 +60,7 @@
           <flowable:docker type="target" x="0.0" y="14.0"></flowable:docker>
         </di:extension>
         <di:waypoint x="457.0" y="244.0"></di:waypoint>
-        <di:waypoint x="633.0" y="244.0"></di:waypoint>
+        <di:waypoint x="543.0" y="244.0"></di:waypoint>
         <cmmndi:CMMNLabel></cmmndi:CMMNLabel>
       </cmmndi:CMMNEdge>
     </cmmndi:CMMNDiagram>
