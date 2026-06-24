@@ -4,11 +4,12 @@
     <casePlanModel id="onecaseplanmodel1" name="Case plan model" flowable:formFieldValidation="false">
       <extensionElements>
         <flowable:default-menu-navigation-size><![CDATA[expanded]]></flowable:default-menu-navigation-size>
+        <flowable:candidates-type><![CDATA[all]]></flowable:candidates-type>
         <flowable:work-form-field-validation><![CDATA[false]]></flowable:work-form-field-validation>
         <design:stencilid><![CDATA[CasePlanModel]]></design:stencilid>
       </extensionElements>
       <planItem id="planItemHumanTask_1" name="Task 1" definitionRef="HumanTask_1"></planItem>
-      <planItem id="planItemHumanTask_2" name="Task 2" definitionRef="HumanTask_2">
+      <planItem id="planItemHumanTask_2" name="Other task" definitionRef="HumanTask_2">
         <entryCriterion id="EntryCriterion_3" sentryRef="sentryEntryCriterion_3"></entryCriterion>
       </planItem>
       <sentry id="sentryEntryCriterion_3" name="Entry criterion">
@@ -26,7 +27,7 @@
           <design:stencilsuperid><![CDATA[Task]]></design:stencilsuperid>
         </extensionElements>
       </humanTask>
-      <humanTask id="HumanTask_2" name="Task 2" flowable:assignee="${initiator}" flowable:candidateUsers="flowableUser,flowableBla" flowable:formFieldValidation="false">
+      <humanTask id="HumanTask_2" name="Other task" flowable:assignee="${initiator}" flowable:candidateUsers="flowableUser,flowableBla" flowable:formFieldValidation="false">
         <extensionElements>
           <flowable:task-candidates-type><![CDATA[all]]></flowable:task-candidates-type>
           <design:stencilid><![CDATA[HumanTask]]></design:stencilid>
@@ -46,11 +47,11 @@
         <cmmndi:CMMNLabel></cmmndi:CMMNLabel>
       </cmmndi:CMMNShape>
       <cmmndi:CMMNShape id="CMMNShape_planItemHumanTask_2" cmmnElementRef="planItemHumanTask_2">
-        <dc:Bounds height="80.0" width="100.0" x="591.0" y="204.0"></dc:Bounds>
+        <dc:Bounds height="80.0" width="100.0" x="642.0" y="204.0"></dc:Bounds>
         <cmmndi:CMMNLabel></cmmndi:CMMNLabel>
       </cmmndi:CMMNShape>
       <cmmndi:CMMNShape id="CMMNShape_EntryCriterion_3" cmmnElementRef="EntryCriterion_3">
-        <dc:Bounds height="28.0" width="18.0" x="582.0" y="230.0"></dc:Bounds>
+        <dc:Bounds height="28.0" width="18.0" x="633.0" y="230.0"></dc:Bounds>
         <cmmndi:CMMNLabel></cmmndi:CMMNLabel>
       </cmmndi:CMMNShape>
       <cmmndi:CMMNEdge id="CMMNEdge_Connector_4" cmmnElementRef="planItemHumanTask_1" targetCMMNElementRef="EntryCriterion_3">
@@ -59,7 +60,7 @@
           <flowable:docker type="target" x="0.0" y="14.0"></flowable:docker>
         </di:extension>
         <di:waypoint x="457.0" y="244.0"></di:waypoint>
-        <di:waypoint x="582.0" y="244.0"></di:waypoint>
+        <di:waypoint x="633.0" y="244.0"></di:waypoint>
         <cmmndi:CMMNLabel></cmmndi:CMMNLabel>
       </cmmndi:CMMNEdge>
     </cmmndi:CMMNDiagram>

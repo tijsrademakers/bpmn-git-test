@@ -2,7 +2,7 @@
   "channelType" : "inbound",
   "type" : "jms",
   "deserializerType" : "json",
-  "destination" : "testQueue",
+  "destination" : "testQueue2",
   "name" : "Channel test",
   "key" : "channelTest"
 }
