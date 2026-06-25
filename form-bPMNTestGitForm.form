@@ -93,7 +93,7 @@
       },
       "size" : 12,
       "tabIndex" : 0,
-      "label" : "Another text",
+      "label" : "Another text 2",
       "id" : "text2",
       "type" : "text"
     } ]
