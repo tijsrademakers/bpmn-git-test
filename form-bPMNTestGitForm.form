@@ -45,7 +45,7 @@
       },
       "size" : 12,
       "tabIndex" : 0,
-      "label" : "Some number 6",
+      "label" : "Some number 7",
       "id" : "integer-number1",
       "type" : "number"
     } ]
@@ -77,6 +77,25 @@
   }, {
     "cols" : [ {
       "designInfo" : {
+        "stencilSuperIds" : [ "base-html-component" ],
+        "stencilId" : "cloud-html-component"
+      },
+      "labelAlign" : "top",
+      "ignore" : false,
+      "visible" : true,
+      "enabled" : true,
+      "isRequired" : false,
+      "extraSettings" : {
+        "validationPanelDisplay" : "show",
+        "showBorder" : false
+      },
+      "size" : 12,
+      "id" : "html-component1",
+      "type" : "htmlComponent"
+    } ]
+  }, {
+    "cols" : [ {
+      "designInfo" : {
         "stencilSuperIds" : [ "base-text" ],
         "stencilId" : "cloud-text"
       },
@@ -93,7 +112,7 @@
       },
       "size" : 12,
       "tabIndex" : 0,
-      "label" : "Another text 2",
+      "label" : "Another text",
       "id" : "text2",
       "type" : "text"
     } ]
@@ -120,12 +139,37 @@
       "id" : "text3",
       "type" : "text"
     } ]
+  }, {
+    "cols" : [ {
+      "designInfo" : {
+        "stencilSuperIds" : [ "base-rich-text" ],
+        "stencilId" : "cloud-rich-text"
+      },
+      "labelAlign" : "top",
+      "value" : "{{asdasdd}}",
+      "ignore" : false,
+      "visible" : true,
+      "enabled" : true,
+      "isRequired" : false,
+      "extraSettings" : {
+        "validationPanelDisplay" : "show",
+        "textFormat" : "html",
+        "minRows" : 3,
+        "useSpellCheck" : true
+      },
+      "size" : 12,
+      "tabIndex" : 0,
+      "label" : "asdasdd",
+      "id" : "rich-text1",
+      "type" : "richText",
+      "defaultValue" : "<p class=\"fre-paragraph\"><span style=\"font-size: 17px; white-space: pre-wrap;\">asdasddas</span></p><p class=\"fre-paragraph\"><br></p><ul class=\"fre-ul\"><li value=\"1\" class=\"fre-listItem\" style=\"--listitem-marker-font-size: 17px;\"><span style=\"font-size: 17px; white-space: pre-wrap;\">kkkddas</span></li><li value=\"2\" class=\"fre-listItem\" style=\"--listitem-marker-font-size: 17px;\"><span style=\"font-size: 17px; white-space: pre-wrap;\">sadasd</span></li><li value=\"3\" class=\"fre-listItem\" style=\"--listitem-marker-font-size: 17px;\"><span style=\"font-size: 17px; white-space: pre-wrap;\">dasds</span></li></ul>"
+    } ]
   } ],
   "metadata" : {
     "key" : "bPMNTestGitForm",
     "name" : "BPMN test git form",
     "description" : null,
-    "version" : "6",
+    "version" : "3",
     "modelType" : "form",
     "flowableDesignVersion" : 3110,
     "palette" : "flowable-work-form-palette"

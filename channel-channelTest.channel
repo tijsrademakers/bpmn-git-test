@@ -1,8 +1,4 @@
 {
-  "channelType" : "inbound",
-  "type" : "jms",
-  "deserializerType" : "json",
-  "destination" : "testQueue",
   "name" : "Channel test",
   "key" : "channelTest"
 }

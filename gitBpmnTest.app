@@ -2,27 +2,14 @@
   "key" : "gitBpmnTest",
   "name" : "Git bpmn test",
   "description" : "",
-  "theme" : "theme-3",
-  "icon" : "acorn",
-  "usersAccess" : "",
-  "groupsAccess" : "flowableUser",
-  "flowApp" : true,
-  "url" : "gitBpmnTest",
+  "theme" : null,
+  "icon" : null,
+  "usersAccess" : null,
+  "groupsAccess" : null,
+  "flowApp" : false,
+  "url" : null,
   "workspaceKey" : "githubWorkspace",
   "paletteDefinitionCategory" : "work",
-  "pageModels" : [ {
-    "key" : "pageTest",
-    "name" : "Page test",
-    "url" : "pageTest",
-    "label" : "Page test",
-    "accessPermissions" : null
-  }, {
-    "key" : "newPageModel",
-    "name" : "New page model",
-    "url" : "newPageModel",
-    "label" : "New page model",
-    "accessPermissions" : null
-  } ],
   "extension" : {
     "design" : {
       "childModels" : [ {
@@ -111,6 +98,11 @@
     "user" : "test"
   } ],
   "documents" : [ {
+    "id" : "81c741a3-753d-11f1-98f8-4a5d826bf571",
+    "name" : "Document1.pdf",
+    "type" : "document-file",
+    "resourceType" : "application/pdf"
+  }, {
     "id" : "c3fab89e-6422-11f1-907a-6aa6d1cff9c0",
     "name" : "Invoice-DEQUE-28330.pdf",
     "type" : "document-file",
